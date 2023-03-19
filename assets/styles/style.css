@@ -1,18 +1,13 @@
 footer{
 	background-color: #0A22F4;
-	padding: 150px 100px 40px 100px;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-areas:
-    "contact registration"
-    "ending ending"
+	padding: 275px 100px 40px 100px;
 }
-
+.top-side{
+    display: flex;
+    justify-content: space-between;
+}
 
 /* contact side */
-.contact-side{
-    grid-area: contact;
-}
 h2{
 	font-size: 32px;
 	color: #FFFFFF;
@@ -62,14 +57,45 @@ iframe{
 
 /* registration side */
 .registration-side{
-    grid-area: registration;
-    max-width: 463px;
+    width: 463px;
+    margin-top: 98px;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: bold;
+    color: #FFFFFF;
+}
+input, textarea{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: regular;
+    height: 41px;
+    margin-bottom: 40px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+textarea{
+    height: 121px;
+    resize: none;
+}
+button{
+    font-size: 16px;
+    color: #171717;
+    font-family: bold;
+    max-width: 151px;
+    border: none;
+    border-radius: 28px;
+    padding: 18px 45px 18px 36px;
+    margin-left: auto;
+    margin-right: 0px;
 }
 
 
-
 /* ending */
-
 .ending{
     grid-area: ending;
 	display: flex;
