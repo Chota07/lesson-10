@@ -98,7 +98,6 @@ button{
 
 /* ending */
 .ending{
-    grid-area: ending;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
