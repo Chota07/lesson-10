@@ -1,0 +1,105 @@
+footer{
+	background-color: #0A22F4;
+	padding: 150px 100px 40px 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+    "contact registration"
+    "ending ending"
+}
+
+
+/* contact side */
+.contact-side{
+    grid-area: contact;
+}
+h2{
+	font-size: 32px;
+	color: #FFFFFF;
+	font-family: "bold";
+}
+footer p{
+	font-size: 16px;
+	max-width: 463px;
+	margin-top: 30px;
+	margin-bottom: 58px;
+	color: #FFFFFF;
+	font-family: "regular";
+}
+iframe{
+	border-radius: 15px;
+	width: 463px;
+	height: 197px;
+	margin-bottom: 92px;
+    box-shadow: -10px 10px #FFFFFF;
+
+}
+.footer-buttons{
+	display: flex;
+	align-items: center;
+}
+.mobile, .email{
+	display: flex;
+	align-items: center;
+	font-family: "bold";
+}
+.mobile img, .email img{
+	background-color: #FFFFFF;
+	padding: 22px;
+	margin-right: 20px;
+	width: 70px;
+	height: 70px;
+	border-radius: 50px;
+}
+.mobile a, .email a{
+	font-size: 22px;
+	color: #FFFFFF;
+}
+.mobile a{
+	margin-right: 98px;
+}
+
+
+/* registration side */
+.registration-side{
+    grid-area: registration;
+    max-width: 463px;
+}
+
+
+
+/* ending */
+
+.ending{
+    grid-area: ending;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 165px;
+	padding-top: 40px;
+	color: #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	font-family: "bold";
+	
+}
+.copyright{
+	font-size: 16px;
+}
+.made-in, .made-out{
+	font-size: 13px;
+}
+.heart-logo{
+	width: 26px;
+	height: 26px;
+	margin-left: 15px;
+	margin-right: 10px;
+}
+.smartweb-icon{
+	width: 121px;
+	height: 35px;
+	margin-left: 30px;
+}
+.right-side{
+	display: flex;
+	align-items: center;
+}
